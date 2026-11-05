@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T00:00:00Z",
+  "title": "Design System: RideReserve",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Desk Ink",
+        "canonical": "oklch(19.1% 0 0)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "ink-hover": {
+        "role": "primary",
+        "displayName": "Ink Lift",
+        "canonical": "#2b2b2b",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "brand": {
+        "role": "secondary",
+        "displayName": "RideReserve Red",
+        "canonical": "oklch(56.1% 0.218 27)",
+        "tonalRamp": [
+          "#2f0000",
+          "#590000",
+          "#850000",
+          "#b3000d",
+          "#df2f2e",
+          "#fd665b",
+          "#ff978a",
+          "#ffcbbe"
+        ]
+      },
+      "brand-soft": {
+        "role": "secondary",
+        "displayName": "Blush",
+        "canonical": "#fdecec",
+        "tonalRamp": [
+          "#2f0000",
+          "#590000",
+          "#850000",
+          "#b3000d",
+          "#df2f2e",
+          "#fd665b",
+          "#ff978a",
+          "#ffcbbe"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#ffffff"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Desk Sand",
+        "canonical": "oklch(96.4% 0.007 89)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5f5d59",
+          "#7f7d79",
+          "#a09e9a",
+          "#c6c4bf",
+          "#f0eee9"
+        ]
+      },
+      "oat": {
+        "role": "neutral",
+        "displayName": "Oat",
+        "canonical": "#efece5",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5f5d59",
+          "#7f7d79",
+          "#a09e9a",
+          "#c6c4bf",
+          "#f0eee9"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Linen",
+        "canonical": "#f1eee8",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5f5d59",
+          "#7f7d79",
+          "#a09e9a",
+          "#c6c4bf",
+          "#f0eee9"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Stone",
+        "canonical": "oklch(89.2% 0.011 90)",
+        "tonalRamp": [
+          "#0d0b06",
+          "#26241e",
+          "#424039",
+          "#605d57",
+          "#807d76",
+          "#a19e97",
+          "#c7c4bc",
+          "#f1eee6"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e7e4dd",
+        "tonalRamp": [
+          "#0d0b06",
+          "#26241e",
+          "#424039",
+          "#605d57",
+          "#807d76",
+          "#a19e97",
+          "#c7c4bc",
+          "#f1eee6"
+        ]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "oklch(45.4% 0.010 278)",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#232429",
+          "#3e3f45",
+          "#5c5d63",
+          "#7c7d83",
+          "#9d9ea5",
+          "#c2c4cb",
+          "#edeef5"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "Field Green",
+        "canonical": "oklch(51.7% 0.131 150)",
+        "tonalRamp": [
+          "#001300",
+          "#003004",
+          "#004f1b",
+          "#117034",
+          "#409155",
+          "#6cb17a",
+          "#9ad5a5",
+          "#ccfdd4"
+        ]
+      },
+      "success-soft": {
+        "role": "status",
+        "displayName": "Field Green Soft",
+        "canonical": "#e8f5ec",
+        "tonalRamp": [
+          "#001300",
+          "#003004",
+          "#004f1b",
+          "#117034",
+          "#409155",
+          "#6cb17a",
+          "#9ad5a5",
+          "#ccfdd4"
+        ]
+      },
+      "warning": {
+        "role": "status",
+        "displayName": "Amber Ledger",
+        "canonical": "oklch(49.4% 0.109 67)",
+        "tonalRamp": [
+          "#1d0200",
+          "#3d1800",
+          "#603300",
+          "#854f00",
+          "#a47137",
+          "#c39463",
+          "#e5bb91",
+          "#ffe8c5"
+        ]
+      },
+      "warning-soft": {
+        "role": "status",
+        "displayName": "Amber Ledger Soft",
+        "canonical": "#fff4e0",
+        "tonalRamp": [
+          "#1d0200",
+          "#3d1800",
+          "#603300",
+          "#854f00",
+          "#a47137",
+          "#c39463",
+          "#e5bb91",
+          "#ffe8c5"
+        ]
+      },
+      "info": {
+        "role": "status",
+        "displayName": "Harbour Blue",
+        "canonical": "oklch(43.1% 0.121 257)",
+        "tonalRamp": [
+          "#00062e",
+          "#002153",
+          "#0f3e7a",
+          "#2f5d9d",
+          "#547fb9",
+          "#7ba1d5",
+          "#a6c6f4",
+          "#d6f1ff"
+        ]
+      },
+      "info-soft": {
+        "role": "status",
+        "displayName": "Harbour Blue Soft",
+        "canonical": "#eaf1fb",
+        "tonalRamp": [
+          "#00062e",
+          "#002153",
+          "#0f3e7a",
+          "#2f5d9d",
+          "#547fb9",
+          "#7ba1d5",
+          "#a6c6f4",
+          "#d6f1ff"
+        ]
+      },
+      "destructive": {
+        "role": "status",
+        "displayName": "Signal Red",
+        "canonical": "oklch(50.0% 0.182 30)",
+        "tonalRamp": [
+          "#2d0000",
+          "#550000",
+          "#7f0000",
+          "#ac1d13",
+          "#cd4d3e",
+          "#eb7867",
+          "#ffa595",
+          "#ffd6c7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page question h1 (48px from 640px, 28px on phones; flow h1s 28-36px)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads (24px on phones)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Category names and sub-section heads."
+      },
+      "title-sm": {
+        "displayName": "Title Sm",
+        "purpose": "Panel heads inside the booking flow."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Pay-now price in category rows, tabular figures."
+      },
+      "body-lede": {
+        "displayName": "Body Lede",
+        "purpose": "One-line hero subtitle."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy and all field values; never below 16px in fields."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, legends, definition terms; hints at 400 in slate."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Stepper labels on phones, badges, fine print."
+      }
+    },
+    "shadows": [
+      {
+        "name": "popover-lift",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1), 0 0 0 1px rgb(20 20 20 / 0.1)",
+        "purpose": "Select menus and the calendar popover only. Resting surfaces are flat."
+      },
+      {
+        "name": "focus-ring-button",
+        "value": "0 0 0 3px rgb(20 20 20 / 0.5)",
+        "purpose": "Keyboard focus on buttons."
+      },
+      {
+        "name": "focus-ring-field",
+        "value": "0 0 0 3px rgb(20 20 20 / 0.15)",
+        "purpose": "Focus and open state on fields, with an ink border."
+      },
+      {
+        "name": "focus-outline",
+        "value": "outline: 2px solid #141414; outline-offset: 2px",
+        "purpose": "Global :focus-visible, Drive Switch pills and choice tiles."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-change",
+        "value": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Colour and border transitions on buttons, fields, pills and rows."
+      },
+      {
+        "name": "popover-enter",
+        "value": "100ms fade + zoom from 95% + 8px slide",
+        "purpose": "Select menus and the calendar popover opening."
+      },
+      {
+        "name": "press",
+        "value": "translateY(1px)",
+        "purpose": "Button active state."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "All animation and transition durations collapse under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink, 56px, full width in forms; every submit.",
+      "html": "<button class=\"ds-btn-primary\">Search vehicles <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-btn-primary { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 56px; padding: 0 24px; width: 100%; max-width: 420px; background: var(--ink, #141414); color: #fff; font-size: 16px; font-weight: 600; border: 1px solid transparent; border-radius: 16.8px; cursor: pointer; transition: background-color 150ms, transform 150ms; } .ds-btn-primary:hover { background: #2b2b2b; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgb(20 20 20 / 0.5); } .ds-btn-primary:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary actions: Back, Request a quote.",
+      "html": "<button class=\"ds-btn-outline\">Request a quote</button>",
+      "css": ".ds-btn-outline { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: inline-flex; align-items: center; justify-content: center; height: 56px; padding: 0 24px; background: #fff; color: var(--ink, #141414); font-size: 16px; font-weight: 600; border: 1px solid var(--stone, #dedbd3); border-radius: 16.8px; cursor: pointer; transition: background-color 150ms; } .ds-btn-outline:hover { background: var(--sand, #f5f3ee); } .ds-btn-outline:focus-visible { outline: none; border-color: var(--ink, #141414); box-shadow: 0 0 0 3px rgb(20 20 20 / 0.5); } .ds-btn-outline:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Field with leading icon",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Shared 56px chrome for text, select and date triggers.",
+      "html": "<button type=\"button\" class=\"ds-field\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg><span class=\"ds-field-ph\">Choose a location</span></button>",
+      "css": ".ds-field { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: flex; align-items: center; gap: 12px; width: 100%; max-width: 420px; height: 56px; padding: 0 16px; background: #fff; color: var(--ink, #141414); font-size: 16px; text-align: left; border: 1px solid var(--stone, #dedbd3); border-radius: 16.8px; cursor: pointer; transition: border-color 150ms, box-shadow 150ms; } .ds-field svg { flex-shrink: 0; color: rgb(20 20 20 / 0.6); } .ds-field-ph { color: var(--muted-foreground, #55565c); } .ds-field:hover { border-color: rgb(20 20 20 / 0.4); } .ds-field:focus-visible { outline: none; border-color: var(--ink, #141414); box-shadow: 0 0 0 3px rgb(20 20 20 / 0.15); }"
+    },
+    {
+      "name": "Drive Switch",
+      "kind": "chip",
+      "refersTo": "drive-switch-selected",
+      "description": "Segmented pill; the one control the brand red fills.",
+      "html": "<div class=\"ds-drive\" role=\"radiogroup\" aria-label=\"How do you want to travel?\"><button class=\"ds-drive-pill is-on\" role=\"radio\" aria-checked=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2\"/><circle cx=\"7\" cy=\"17\" r=\"2\"/><path d=\"M9 17h6\"/><circle cx=\"17\" cy=\"17\" r=\"2\"/></svg>Self-drive</button><button class=\"ds-drive-pill\" role=\"radio\" aria-checked=\"false\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"5\"/><path d=\"M20 21a8 8 0 0 0-16 0\"/></svg>With chauffeur</button></div>",
+      "css": ".ds-drive { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; max-width: 420px; background: #fff; border: 1px solid var(--stone, #dedbd3); border-radius: 9999px; } .ds-drive-pill { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: flex; align-items: center; justify-content: center; gap: 8px; height: 48px; padding: 0 12px; font-size: 16px; font-weight: 600; white-space: nowrap; color: rgb(20 20 20 / 0.7); background: transparent; border: 0; border-radius: 9999px; cursor: pointer; transition: background-color 150ms, color 150ms; } .ds-drive-pill:hover { background: var(--sand, #f5f3ee); color: var(--ink, #141414); } .ds-drive-pill.is-on { background: var(--brand, #d71920); color: #fff; } .ds-drive-pill:focus-visible { outline: 2px solid var(--ink, #141414); outline-offset: 2px; }"
+    },
+    {
+      "name": "Booking Stepper",
+      "kind": "nav",
+      "refersTo": "stepper-marker-active",
+      "description": "Four-step progress: ink done, red active, stone upcoming.",
+      "html": "<ol class=\"ds-steps\"><li class=\"done\"><span class=\"m\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"l\">Trip</span></li><li class=\"on\" aria-current=\"step\"><span class=\"m\">2</span><span class=\"l\">Vehicle</span></li><li><span class=\"m\">3</span><span class=\"l\">Details</span></li><li class=\"last\"><span class=\"m\">4</span><span class=\"l\">Review</span></li></ol>",
+      "css": ".ds-steps { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; max-width: 576px; margin: 0; padding: 0; list-style: none; } .ds-steps li { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; } .ds-steps li:not(.last)::after { content: ''; position: absolute; top: 16px; left: 50%; width: 100%; height: 1px; background: var(--stone, #dedbd3); } .ds-steps li.done::after { background: var(--ink, #141414); } .ds-steps .m { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 9999px; font-size: 14px; font-weight: 700; background: #fff; color: var(--muted-foreground, #55565c); box-shadow: inset 0 0 0 1px var(--stone, #dedbd3); } .ds-steps .done .m { background: var(--ink, #141414); color: #fff; box-shadow: none; } .ds-steps .on .m { background: var(--brand, #d71920); color: #fff; box-shadow: none; } .ds-steps .l { font-size: 14px; color: var(--muted-foreground, #55565c); } .ds-steps .on .l { font-weight: 600; color: var(--ink, #141414); }"
+    },
+    {
+      "name": "Search Card",
+      "kind": "card",
+      "refersTo": "search-card",
+      "description": "The one calm card on the sand band holding the trip fields.",
+      "html": "<div class=\"ds-search\"><p class=\"ds-search-hint\">You drive. Bring your driving licence to collection.</p><div class=\"ds-search-f\">Pick-up and return</div><div class=\"ds-search-btn\">Search vehicles</div></div>",
+      "css": ".ds-search { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: flex; flex-direction: column; gap: 20px; max-width: 560px; padding: 24px; background: #fff; border: 1px solid var(--stone, #dedbd3); border-radius: 21.6px; } .ds-search-hint { margin: 0; font-size: 14px; color: var(--muted-foreground, #55565c); } .ds-search-f { height: 56px; display: flex; align-items: center; padding: 0 16px; border: 1px solid var(--stone, #dedbd3); border-radius: 16.8px; color: var(--muted-foreground, #55565c); } .ds-search-btn { height: 56px; display: flex; align-items: center; justify-content: center; background: var(--ink, #141414); color: #fff; font-weight: 600; border-radius: 16.8px; }"
+    },
+    {
+      "name": "Category Row",
+      "kind": "card",
+      "refersTo": "category-row",
+      "description": "Perk-style result row: photo, name 'or similar', notes, price column.",
+      "html": "<article class=\"ds-row\"><div class=\"ds-row-img\"></div><div><h3 class=\"ds-row-h\">Compact SUV <span>or similar</span></h3><p class=\"ds-row-n\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> City and highway</p></div><div class=\"ds-row-p\"><span class=\"ds-row-k\">3 days · pay online</span><span class=\"ds-row-v\">GHS 1,950</span><span class=\"ds-row-k\">+ deposit at pick-up (TBC)</span></div></article>",
+      "css": ".ds-row { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: grid; grid-template-columns: 176px 1fr 208px; align-items: center; gap: 24px; padding: 20px; background: #fff; border: 1px solid var(--stone, #dedbd3); border-radius: 21.6px; transition: border-color 150ms; } .ds-row:hover { border-color: var(--ink, #141414); } .ds-row-img { aspect-ratio: 4/3; background: var(--sand, #f5f3ee); border-radius: 16.8px; } .ds-row-h { font-family: var(--font-bricolage, 'Bricolage Grotesque'), Inter, Helvetica, Arial, sans-serif; margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.025em; color: var(--ink, #141414); } .ds-row-h span { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0; color: var(--muted-foreground, #55565c); } .ds-row-n { display: flex; align-items: center; gap: 4px; margin: 8px 0 0; font-size: 14px; color: rgb(20 20 20 / 0.8); } .ds-row-n svg { color: var(--success, #1c7c3c); } .ds-row-p { display: flex; flex-direction: column; padding-left: 24px; border-left: 1px solid var(--stone, #dedbd3); } .ds-row-k { font-size: 14px; color: var(--muted-foreground, #55565c); } .ds-row-v { font-size: 24px; font-weight: 700; letter-spacing: -0.025em; font-variant-numeric: tabular-nums; color: var(--ink, #141414); }"
+    },
+    {
+      "name": "Information Strip",
+      "kind": "custom",
+      "refersTo": "info-strip",
+      "description": "Pastel note under the search card.",
+      "html": "<div class=\"ds-info\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/></svg><p>No account needed. You'll see prices and what's due at collection before you share any personal details.</p></div>",
+      "css": ".ds-info { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: flex; align-items: flex-start; gap: 10px; max-width: 560px; padding: 12px 16px; background: var(--info-soft, #eaf1fb); border: 1px solid rgb(29 79 145 / 0.15); border-radius: 16.8px; font-size: 14px; color: var(--ink, #141414); } .ds-info svg { flex-shrink: 0; margin-top: 2px; color: var(--info, #1d4f91); } .ds-info p { margin: 0; }"
+    },
+    {
+      "name": "Underline Link",
+      "kind": "custom",
+      "description": "Key text link: ink, 2px red underline mark, 44px tap height.",
+      "html": "<a class=\"ds-link\" href=\"#\">Compare in detail <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a>",
+      "css": ".ds-link { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: inline-flex; align-items: center; gap: 4px; min-height: 44px; font-size: 16px; font-weight: 600; color: var(--ink, #141414); text-decoration: underline; text-decoration-color: var(--brand, #d71920); text-decoration-thickness: 2px; text-underline-offset: 4px; } .ds-link:focus-visible { outline: 2px solid var(--ink, #141414); outline-offset: 2px; }"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "refersTo": "status-badge",
+      "description": "Round soft-fill tag for drive modes and statuses.",
+      "html": "<span class=\"ds-badge\">Self-drive</span> <span class=\"ds-badge ds-badge-ok\">Confirmed</span>",
+      "css": ".ds-badge { font-family: var(--font-inter, Inter), Helvetica, Arial, sans-serif; display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: 600; background: var(--sand, #f5f3ee); color: var(--muted-foreground, #55565c); } .ds-badge-ok { background: var(--success-soft, #e8f5ec); color: var(--success, #1c7c3c); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Booking Desk",
+    "overview": "RideReserve is a service counter, not a showroom. Every surface opens on a centred column with one question and one calm card, in the manner of Perk (TravelPerk): a warm sand band at the top of the page, white below, ink-black actions and thin stone borders holding every field. The visitor states drive mode, place and dates, presses one large black button, and gets categories with prices. Nothing floats over a photograph and nothing competes with the form.\n\nThe palette is almost entirely neutral and warm. Near-black carries every decision the visitor makes; RideReserve red is a signature, not a colour field, and appears only where the brand speaks or where the visitor's current choice lives. Depth comes from borders and from the sand-to-white band change, not from shadows. Controls are big on purpose: the phone is the primary device, so primary buttons and fields stand 56px tall and pills 48px.\n\nDensity is relaxed. Forms run one column, centred, with 16-24px gaps; lists are divided by stone hairlines rather than boxed into card grids. Bricolage Grotesque gives headings a little warmth and character; Inter does all the reading and all the numbers.",
+    "keyCharacteristics": [
+      "Centred single-column layout: a 640px hero column, 576px form column, 768px list column.",
+      "Near-black primary actions; red as accent only.",
+      "Warm sand band at the top, white canvas below, ink footer.",
+      "1px stone borders and generously rounded corners; no gradients, no shadowed cards.",
+      "56px buttons and fields, 48px pills, 44px minimum tap areas on links."
+    ],
+    "rules": [
+      {
+        "name": "The Red Is a Signature Rule",
+        "body": "RideReserve red marks exactly five things: the logo, the selected Drive Switch pill, the active stepper marker, underline marks on key links and the current nav item, and text selection. Primary buttons are never red. Errors use Signal Red, never brand red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Decides Rule",
+        "body": "Whatever the visitor commits to (a submit, a selected tile, a selected category, a completed step) turns ink. Ink is the colour of a decision.",
+        "section": "colors"
+      },
+      {
+        "name": "The Headings Only Rule",
+        "body": "Bricolage Grotesque is for h1-h4 only. Qualifiers inside a heading (\"or similar\") drop back to Inter at 14px, regular, in slate.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Case Rule",
+        "body": "Headings, labels and buttons are sentence case at normal tracking. Booking references in monospace are the only letter-spaced text.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Column Rule",
+        "body": "Forms are centred and single column. Only the date/time pair and the yes/no tile pair share a row.",
+        "section": "layout"
+      },
+      {
+        "name": "The Border, Not Shadow Rule",
+        "body": "A resting surface is defined by a 1px stone line. Selection swaps the line to ink; it never adds a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do make every primary action an ink button, 56px tall, full width inside forms.",
+      "Do keep RideReserve red to the logo, the selected Drive Switch pill, the active stepper marker, link underline marks and text selection.",
+      "Do build fields from the shared 56px chrome: white, 1px stone border, 16.8px radius, leading icon.",
+      "Do centre forms in a single column (576px in the flow, 640px in the hero).",
+      "Do show selection by switching the border or fill to ink.",
+      "Do put the warm sand band behind the top of a page and keep the rest white.",
+      "Do keep tap targets at least 44px; pills 48px, buttons and fields 56px."
+    ],
+    "donts": [
+      "Don't fill primary buttons with red, or use brand red for errors.",
+      "Don't add shadows to cards, rows or the search card; shadows belong only to floating menus and popovers.",
+      "Don't use gradients.",
+      "Don't float the search form over a full-bleed car photo.",
+      "Don't set Bricolage Grotesque on body text, labels or prices.",
+      "Don't put a small uppercase label above a heading.",
+      "Don't drop field text below 16px."
+    ]
+  }
+}
